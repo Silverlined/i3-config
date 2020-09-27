@@ -49,8 +49,9 @@ bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+
 
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec light -A 2
-bindsym XF86MonBrightnessDown exec light -U 2
+bindsym XF86MonBrightnessDown exec light -U 10
 exec "setxkbmap -option 'grp:ctrl_shift_toggle' -layout us,bg -variant ,phonetic"
+
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec dmenu_run
@@ -185,4 +186,8 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 	font pango:monospace 8
+	# mode hide
+	# output primary
+	# tray_output none
+	# separator_symbol “⁞”
 }
