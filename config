@@ -29,6 +29,10 @@ font pango:monospace 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Remap Caps Lock to Control
+exec xmodmap -e "clear lock"
+exec setxkbmap -option caps:ctrl_modifier
+
 # Start redshift
 exec --no-startup-id redshift -O 4200K
 # Set Background
