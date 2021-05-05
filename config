@@ -30,7 +30,7 @@ font pango:monospace 10
 floating_modifier $mod
 
 # Start redshift
-exec --no-startup-id redshift -O 4200K
+exec --no-startup-id redshift -O 3900K
 # Set Background
 exec --no-startup-id feh --bg-scale /home/silverlined/Documents/bg.jpg
 #exec --no-startup-id conky -c
