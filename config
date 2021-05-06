@@ -26,6 +26,9 @@ font pango:monospace 10
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
+# Add Calendar applet:
+bindsym $mod+p exec zenity --calendar
+
 # Keyboard layout(languages):
 exec setxkbmap -layout us,bg -variant ,phonetic
 exec setxkbmap -option 'grp:ctrl_shift_toggle'
@@ -70,8 +73,8 @@ bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+i focus up
+bindsym $mod+m focus down
+bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
@@ -82,8 +85,8 @@ bindsym $mod+Right focus right
 
 # move focused window
 bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+i move up
+bindsym $mod+Shift+m move down
+bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
