@@ -26,6 +26,11 @@ font pango:monospace 10
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
+# Software switch line-out/headphones
+# Prerequisite: change Auto-Mute mode -> disabled (alsamixer -c0)
+bindsym $mod+F11 exec pactl set-sink-port 0 analog-output-headphones
+bindsym $mod+F12 exec pactl set-sink-port 0 analog-output-lineout
+
 # Add Calendar applet:
 bindsym $mod+p exec zenity --calendar
 
