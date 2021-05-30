@@ -35,8 +35,8 @@ bindsym $mod+F12 exec pactl set-sink-port 0 analog-output-lineout
 bindsym $mod+p exec zenity --calendar
 
 # Keyboard layout(languages):
-exec --no-startup-id setxkbmap -layout us,bg -variant ,phonetic
-exec --no-startup-id setxkbmap -option 'grp:ctrl_shift_toggle'
+exec setxkbmap -layout us,bg -variant ,phonetic
+exec setxkbmap -option 'grp:ctrl_shift_toggle'
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
