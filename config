@@ -53,7 +53,7 @@ exec --no-startup-id feh --bg-scale /home/silverlined/Documents/bg.jpg
 exec --no-startup-id compton
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec rxvt
 
 # kill focused window
 bindsym $mod+q kill
