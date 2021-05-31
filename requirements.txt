@@ -6,3 +6,9 @@ rxvt
 alsa-plugins-pulseaudio
 xset
 xsel
+gvfs
+polkit-gnome
+python3
+perl
+gnumeric
+

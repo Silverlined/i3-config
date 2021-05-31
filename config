@@ -51,6 +51,7 @@ exec --no-startup-id redshift -O 3900K
 exec --no-startup-id feh --bg-scale /home/silverlined/Documents/bg.jpg
 #exec --no-startup-id conky -c
 exec --no-startup-id compton
+exec --no-startup-id xset b off
 
 # start a terminal
 exec --no-startup-id urxvtd -q -f -o
@@ -208,3 +209,4 @@ bar {
 	# tray_output none
 	# separator_symbol “⁞”
 }
+
